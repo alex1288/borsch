@@ -210,12 +210,13 @@ width: 100%;
 
 .adven ul li  {
     display: inline-block;
-  text-align: center;
+  text-align: left;
   width: 24.5%;
 }
 
 .adven ul li img {
-  
+  width: 50px;
+  margin-left: 0;
 }
 
 .price{

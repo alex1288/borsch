@@ -54,22 +54,23 @@ h1{
 }
 
 h2 {
-  font-size: 36px;
-  font-weight: 300;
-  text-transform: uppercase;
-  color:#333344;
-  text-align: center;
-  margin-top: 0px;
-  padding-top: 25px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #666;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 25px;
+    font-weight: 900;
+        letter-spacing: 5px;
 
 }
 
 
 h3{
-	font-size: 20px;
-  line-height: 25px;
-  font-weight: 300;
-  color:#333344;
+    font-size: 21px;
+    line-height: 25px;
+  font-weight: 900;
+  color:#666;
 
 }
 ul{
@@ -84,7 +85,7 @@ p{
 
 
 p{
-  color:#333344;
+  color:#666;
 }
 
 header{
@@ -111,10 +112,10 @@ footer p{
 
 .transition {
 
-    -webkit-transition: all 0.5s ease-in-out 0s;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 
 }
 
@@ -138,10 +139,18 @@ text-align: center;
 }
 .header_box ul li{
 display: inline-block;
-width: 19%;
+width: 24.5%;
 text-align: center;
+
 }
 
+
+.header_box ul li p{
+    font-size: 21px;
+    line-height: 25px;
+  font-weight: 900;
+  color:#666;
+}
 .logo_box{
 width: 25%;
 display: inline-block;
@@ -180,50 +189,156 @@ width: 100%;
   border: 2px solid #d5615a;
       font-size: 30px;
       padding: 5px 20px;
+      background-color: transparent;
+}
+
+.main_box a:hover{
+  color: #fff;
+
+      background-color: #d5615a;
 }
 
 
 .main_box img{
   width: 100%;
-  margin-top: -15px;
+  margin-top: -48px;
 }
 
 
-.main_box span{
+.main_box .cite_name{
     position: absolute;
-    margin-top: 145px;
+    margin-top: 40px;
     left: 0;
     font-size: 21px;
     font-weight: 900;
     color: #666;
+  
 }
+.main_box .cite_name:before{
+content: url(img/gerb2.png);
+position: absolute;
+left: 0;
+width: 50px;
+top: 5px;
+ 
+  }
+
+  .cite_name span{
+    padding-left: 30px;
+  }
 
 .adven {
-
+ background-color:  #edfff5;
 }
 
 .adven ul {
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 
 .adven ul li  {
     display: inline-block;
   text-align: left;
-  width: 24.5%;
+      width: 32.9%;
+padding-left: 15px;
+    padding-right: 15px;
+    border-left: 3px solid #ddd;
+
 }
 
+ .adven ul li:nth-child(3) {
+border-right:  3px solid #ddd;
+  }
+
+.adven ul li  h3{
+font-weight: 900;
+}
 .adven ul li img {
   width: 50px;
   margin-left: 0;
 }
 
 .price{
-  background-color:  #edfff5;
+    background-color: rgba(237, 255, 245, 0.3);
+}
+
+.price .price_about p{
+  font-size: 21px;
+  text-align: center;
+}
+.price ul {
+display: flex;
+}
+
+.price ul li{
+display: inline-flex;
+vertical-align: top;
+width: 33.333333333333%;
+    text-align: center;
+
+
+}
+ .price ul li:nth-child(1) {
+//margin-right: 30px;
+border-left:  3px solid #ddd;
+  }
+
+
+.price ul li img{
+width: 100%;
+}
+
+.price_item{
+  border-right: 3px solid #ddd;
+    position: relative;
+    padding: 10px;
+}
+
+.price ul li h3{
+    font-size: 31px;
+    padding: 0 15px;
+        margin: 0;
+}
+.price ul li p{
+font-size: 21px;
+    padding: 0 15px;
+    color: #777;
+    position: relative;
+    bottom:  0;
+}
+.price ul li span{
+padding-bottom: 30px;
 }
 
 
+
+.price ul li a{
+  color: #d5615a;
+  border: 2px solid #d5615a;
+      font-size: 30px;
+      padding: 0px 20px;
+      background-color: transparent;
+}
+
+.price ul li a:hover{
+  color: #fff;
+
+      background-color: #d5615a;
+}
+
+.price_txt {
+    //margin-bottom: 65px;
+    min-height: 190px;
+}
+
+.price_order{
+position: relative;
+
+}
+.price_order p{
+  text-align: center;
+}
 
 /* =========== форма обратной связи ============ */
 
